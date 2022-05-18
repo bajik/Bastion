@@ -1,0 +1,194 @@
+body {
+	margin: 0;
+	font-family: 'Fira Sans', sans-serif;
+	background-color: rgb(244, 244, 249);
+}
+
+header, main {
+	max-width: 1440px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.header-1 {
+	background-color: #212429;
+	display: grid;
+	grid-template-columns: 10% 1fr 210px 120px 150px 10%;
+	grid-template-areas: ". menu phone local email .";
+	height: 45px;
+}
+
+nav {
+	grid-area: menu;
+	display: flex;
+	align-items: center;
+}
+
+nav ul {    
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	color: white;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 14px;
+	display: flex;
+	column-gap: 28px;
+}
+
+.red-text {
+	color: #E30614;
+}
+
+.icon-size {
+	font-size: 21px;
+	line-height: 0;
+	margin-right: 10px;
+}
+
+.font-size12 {
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.font-size16 {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 1px;
+}
+
+.container-phone {
+	grid-area: phone;
+	display: flex;
+	align-items: center;
+}
+
+.container-phone .phone-text {
+	text-decoration: none;    
+	color: white; 
+}
+
+.container-location {
+	grid-area: local;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.location-down {
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+.container-mail {
+	grid-area: email;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+
+.local-mail {
+	text-decoration: none;
+	font-size: 12px;
+	color: white;
+}
+
+.header-2 {
+	width: 80%;
+	margin: auto;
+	height: 110px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 20px;
+}
+
+.header-text {
+	width: 110px;
+	line-height: 11.7px;
+}
+
+.btn-catalog {
+	padding: 0 15px;
+	border: 1px solid #E30614;
+	border-radius: 4px;
+	width: 135px;
+	height: 42px;
+	display: flex;
+	align-items: center;    
+	font-weight: 500;
+}
+
+.container-search {
+	width: 450px;
+	position: relative;
+	border: 1px solid #E6E6E6;
+	border-radius: 4px;
+}
+
+.container-search input#search {
+	width: 450px;
+	height: 42px;
+	font-size: 15px;
+	padding-left: 40px;
+	border: none;
+}
+
+.container-search .search-icon {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: #E30614;
+	font-size: 21px;
+	z-index: 1;
+}
+
+.call {
+	width: 200px;
+	height: 42px;
+	background-color: #E30614;
+	color: white;
+	border: none;
+}
+
+.container-favorite {
+	text-align: center;
+	margin-left: 15px;
+}
+
+.favorite-icon, .cart-icon {
+	color: #E30614;
+	font-size: 25px;
+}
+
+.favorite-text, .cart-text {
+	font-size: 12px;    
+}
+
+main {
+	background: url(../img/image-14.jpg);
+}
+
+ 
+
+.produce {
+	font-weight: 700;
+	font-size: 40px;
+	width: 500px;
+	margin-top: 75px;
+}
+
+.produce-year {
+	color: #E30614;
+	font-weight: 900;
+	font-size: 100px;
+	text-shadow: 5px 5px 1px rgba(0,0,0,0.3);
+	margin-right: 30px;
+}
+
+.main-container-1 {
+	width: 80%;
+	margin: auto;
+}
+
